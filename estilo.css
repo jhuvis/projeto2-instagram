@@ -1,0 +1,541 @@
+* {
+    box-sizing: border-box;
+ }
+
+
+body{
+    background-color: #f9f9f9;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    height: 54px;
+    top: 0;
+    left: 0;
+    right: 0;  
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    z-index: 1;
+}
+.storys{
+    position: relative;
+    margin: 88px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 614px;
+    height: 118px;  
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    
+    overflow: hidden;
+
+}
+
+    .logo{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    
+    }
+
+    .mini-borda{
+    width: 1px;
+    height: 22px;
+    background: black;
+    }   
+
+    .caixa-s{
+    box-sizing: border-box;
+    width: 215px;
+    height: 28px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    }   
+
+    .cabecas{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    }
+
+    .side-baixo
+    {
+        display: none;
+    }
+
+    .posts{
+        margin: 32px 10px 32px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ @media (max-width: 614px)
+{
+    .posts{
+        margin: 32px 10px 60px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .side-baixo{
+        display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: #FFFFFF;
+border: 1px solid #DBDBDB;
+  height: 54px;
+    }
+
+    .side-baixo ion-icon{
+        margin: 20px;
+    }
+    .mini-borda
+    {
+    display: none;
+    }  
+
+    .heart
+    {
+    display: none;
+    } 
+
+    .compass
+    {
+    display: none;
+    } 
+
+    .person
+    {
+    display: none;
+    } 
+
+    .caixa-s
+    {
+            display: none;
+    }
+
+    .cabecas{
+        width: 22px;
+        }
+
+    .logo{
+    display: flex;
+    width: 310px;
+    justify-content: space-between;   
+    align-items: center;    
+    }
+
+    .storys{
+        position: relative;
+        margin: 88px 10px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 614px;
+        height: 118px;  
+        background-color: #f9f9f9;
+        border: 0px;
+        overflow: hidden;
+    
+    }
+
+    .seta{
+        display: none;
+    }
+
+    .top{
+        position: fixed;
+        justify-content: space-around;
+        align-items: center;
+        height: 54px;
+        top: 0;
+        left: 0;
+        right: 0;  
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        z-index: 1;
+
+        
+    }
+}
+
+ion-icon{
+    font-size: 22px;
+    font-weight: bold
+}
+
+.side
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1250px;
+}
+
+@media (min-width: 936px)
+{
+.perfil
+{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    top: 90px;
+    right: 10%;
+    left: 65%;
+    width: 300px;
+    margin: 0px 20px 0px;
+}
+}
+
+@media (min-width: 1250px)
+{
+.perfil
+{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    top: 90px;
+    right: 30%;
+    left: 60%;
+    width: 300px;
+    margin: 0px 20px 0px;
+}
+}
+
+@media (max-width: 935px)
+{
+.perfil
+{
+    display: none;
+}
+}
+
+.you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px;
+}
+
+.you div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px 15px 0px;
+}
+
+.you img{
+    border-radius: 28px;
+    width: 56px;
+    height: 56px;
+}
+
+.recomenda{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.rec-top{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 10px;
+    width: 300px;
+}
+
+
+
+.rec-p{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0px 0px 10px;
+}
+
+.rec-pl{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rec-pl div{
+    margin: 0px 10px 0px;
+}
+
+.rec-pr{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notas{
+    margin: 20px 0px 10px;
+}
+
+@media (min-width: 936px)
+{
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    right: 50%;
+}
+}
+
+@media (max-width: 935px)
+{
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+}
+
+.logo-meme div img{
+    
+width: 32px;
+height: 32px;
+
+border-radius: 16px;
+}
+
+.likes img{
+    width: 20px;
+height: 20px;
+
+border-radius: 10px;
+}
+
+.rec-pl img{
+    width: 32px;
+height: 32px;
+
+border-radius: 16px;
+}
+
+.storys div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta{
+    position: absolute;
+    bottom: 40%;
+    right: 0px;
+    border-radius: 70px;
+    box-shadow: -3px 4px 11px 1px black;
+
+}
+
+.storys div img {
+    position: relative;
+    margin-left: 15px;
+    width: 66px;
+    height: 66px;
+    border-radius: 50px;
+    padding: 2px;
+    border: 2px solid;
+    border-image: url("img/stories_background.png") 15 / 15px round;
+    z-index: 0;
+      
+}
+
+.storys div p{
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #262626;
+}
+
+.meme{ 
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 614px;
+}
+
+.meme img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.meme-post{
+width: 612px;
+height: 612px;
+}
+
+.top-meme{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items:center;
+    margin: 15px;
+}
+
+.logo-meme{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo-meme div p{
+    margin: 0px 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1px;
+    color: #262626;
+}
+
+.meme-boto{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items:center;
+    margin: 10px 15px 10px;
+}
+
+.boto-left{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items:center;
+    width: 90px;
+}
+
+.likes{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items:center;
+    margin: 0 15px 5px;
+}
+
+.likes img{
+    margin: 0px 0px 10px;
+}
+
+.likes p{
+    margin: 0px 5px 10px;
+}
+
+.arroba{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #262626;
+}
+
+.nome{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8E8E8E;
+}
+
+.rec-top p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    
+    color: #8E8E8E;
+}
+
+.rec-pr p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #139EF2;
+
+}
+
+.notas{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+display: flex;
+align-items: center;
+
+color: #C7C7C7;
+}
